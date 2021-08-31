@@ -6,4 +6,6 @@ Our team have 4 members:
                  - TRUONG THANH LONG -S3818775
                  - PHAN THANH LOI -S3864188
                  - MAI HUY - S3836278
-Link for presentasion:                
+Link for presentasion:    
+
+Contributions:
