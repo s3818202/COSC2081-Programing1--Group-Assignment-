@@ -37,14 +37,26 @@ public class Data {
        // choosing case
         this.chooseArea = sc.nextLine();
 
-        switch (this.chooseArea) {
+        switch (this.chooseArea) { //Run very good
             case "1":
-                System.out.println("Input a country you want to check: ");
-                this.Area = sc.nextLine().toLowerCase(Locale.ROOT);
+            	System.out.println("Input the country you want to search: ");
+                this.Area = sc.nextLine();
+                String[] countrychar = Check.toArray(this.Area);
+                while (!Check.CheckString(countrychar)) {
+                	System.out.println("Input the country you want to search: ");
+                    this.Area = sc.nextLine();
+                }
+                this.Area = Check.toString(countrychar);
                 break;
             case "2":
-                System.out.println("Input a continent you want to check: ");
-                this.Area = sc.nextLine().toLowerCase(Locale.ROOT);
+            	System.out.println("Input the continent you want to search: ");
+                this.Area = sc.nextLine();
+                String[] continentchar = Check.toArray(this.Area);
+                while (!Check.CheckString(continentchar, 2)) {
+                	System.out.println("Input the continent you want to search: ");
+                    this.Area = sc.nextLine();
+                }
+                this.Area = Check.toString(continentchar);
                 break;
             default:
                 System.out.println(" Invalid data, please try again!");
