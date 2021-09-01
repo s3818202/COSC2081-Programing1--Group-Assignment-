@@ -45,8 +45,10 @@ public class Data {
                 while (!Check.CheckString(countrychar)) {
                 	System.out.println("Input the country you want to search: ");
                     this.Area = sc.nextLine();
+                    countrychar = Check.toArray(this.Area);
                 }
-                this.Area = Check.toString(countrychar);
+                this.Area = Check.toString(countrychar); // this.Area now have the correct typing version 
+                this.Area = this.Area.toLowerCase(Locale.ROOT);//but bc the group use the lowercase then this.Area will be converted to lowercase!
                 break;
             case "2":
             	System.out.println("Input the continent you want to search: ");
@@ -55,8 +57,10 @@ public class Data {
                 while (!Check.CheckString(continentchar, 2)) {
                 	System.out.println("Input the continent you want to search: ");
                     this.Area = sc.nextLine();
+                    continentchar = Check.toArray(this.Area);
                 }
                 this.Area = Check.toString(continentchar);
+                this.Area = this.Area.toLowerCase(Locale.ROOT);
                 break;
             default:
                 System.out.println(" Invalid data, please try again!");
