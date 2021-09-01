@@ -2,7 +2,7 @@
 
 This is a github of a group assignment of class COSC2081- Programing 1 from RMIT. This group project is about a program that help user searching and present data by table or chart  from a csv file that cover all cases, death, and people that vaccinated in all countries and continents in the world from 2020 to 2021. 
 
-In this project, our group distributed the program to 5 main part: data(receiving user input a range of time and area), summary(processing data to a group selection as a requirement), display(cover to present data by chart and table), UserInterface(function to display in main function- restart, exit program), main function.
+In this project, our group distributed the program to 6 main part: data(receiving user input a range of time and area), summary(processing data to a group selection as a requirement), display(cover to present data by chart and table), UserInterface(function to display in main function- restart, exit program), CheckString(valid input area to data) and main function.
 
 
 Our team have 4 members: 
@@ -23,7 +23,7 @@ Overall, All contributions of each member in our group are the same. We all agre
                  -BUI HOANG: Input time by date or week, dayInput function, function check if valid input
                  -TRUONG THANH LONG: InputArea function, input start date and enddate, arrayOftime function
                  -PHAN THANH LOI: Changing string to local date, getDayto method
-                 -MAI LE ANH HUY: pair method, getDaysFrom method, timeRangeType function
+                 -MAI LE ANH HUY: pair method, getDaysFrom method, timeRangeType function, CheckString file
              2. SUMMARY part
                  -BUI HOANG: NumberOfGroup function, GroupData function, NewTotal function, checkDivisible function, isContained function
                  -TRUONG THANH LONG: NoGrouping function, InputForMetric and RunMetric function, convertResultToString function
