@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
@@ -28,7 +29,7 @@ public class Data {
     }
 
     // Methods
-    public void inputArea() {
+    public void inputArea() throws IOException {
         System.out.println("Welcome to the Checking COVID-19 DATA Program");
         System.out.println("""
                 Please select country(By Press (1)) or continent (By Press (2)) to choose the Area you want to check in:
@@ -37,10 +38,11 @@ public class Data {
        // choosing case
         this.chooseArea = sc.nextLine();
 
-        switch (this.chooseArea) { //Run very good
+        switch (this.chooseArea) {
             case "1":
             	System.out.println("Input the country you want to search: ");
                 this.Area = sc.nextLine();
+                // Check if input valid with CheckString function
                 String[] countrychar = Check.toArray(this.Area);
                 while (!Check.CheckString(countrychar)) {
                 	System.out.println("Input the country you want to search: ");
@@ -53,6 +55,7 @@ public class Data {
             case "2":
             	System.out.println("Input the continent you want to search: ");
                 this.Area = sc.nextLine();
+                // Check if input valid with CheckString function
                 String[] continentchar = Check.toArray(this.Area);
                 while (!Check.CheckString(continentchar, 2)) {
                 	System.out.println("Input the continent you want to search: ");

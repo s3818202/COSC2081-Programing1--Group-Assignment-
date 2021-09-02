@@ -26,7 +26,7 @@ class Check{
 	}
 	public static boolean CheckString(String[] IP) throws IOException {
 		String X = toString(IP).toLowerCase();
-		Scanner input = new Scanner(new File("src/country.txt")); // Specifying file
+		Scanner input = new Scanner(new File("src/nameOfcountryAndcontinent.txt")); // Specifying file
 		while (input.hasNext()) {
 			String temp = input.nextLine();
 			String received = temp.toLowerCase();
