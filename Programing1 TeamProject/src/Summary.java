@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.regex.*;
 
 public class Summary {
-    // Attribute
+    // All of the related properties of the Summary object
     int NumberOfGroup, InputDays;
     String path = "src/data.csv";
     String line = "";
