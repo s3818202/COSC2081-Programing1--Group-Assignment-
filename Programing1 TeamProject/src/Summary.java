@@ -26,10 +26,6 @@ public class Summary {
 	 * more easily
 	 */
 
-	// Convert result to string to display (Result and Time)
-	ArrayList<String> OutcomeInString = new ArrayList<>();
-	ArrayList<String> TimeToString = new ArrayList<>();
-
 	// Filtered by Area and Time from Beginning to Start Date
 	ArrayList<String> ListofDataBeforeUserCheck = new ArrayList<>();
 	ArrayList<String> AreaMetricBeforeUserCheck = new ArrayList<>();
@@ -47,6 +43,10 @@ public class Summary {
 	ArrayList<String> TimeRange = new ArrayList<>();
 	ArrayList<String> ValueCheckMetric = new ArrayList<>();
 	ArrayList<String> ValueCheckTimeRange = new ArrayList<>();
+	
+	// Convert result to string to display (Result and Time)
+	ArrayList<String> OutcomeInString = new ArrayList<>();
+	ArrayList<String> TimeToString = new ArrayList<>();
 
 	// Result of newtotal type and upto
 	ArrayList<Integer> NewTotal = new ArrayList<>();
