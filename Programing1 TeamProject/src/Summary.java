@@ -11,6 +11,9 @@ public class Summary {
     String TypeOfResult = "";
     String option = "";
     Scanner sc = new Scanner(System.in);
+    /* Because processing and manipulating the csv file and other related data is mandatory but we've encountered so many 
+    adversities about that. To resolve this issue we introduce the ArrayList Driven Approach in order to handle data more easily */
+    
     // Fetched and Filtered by Area
     ArrayList<String> list = new ArrayList<>();
     ArrayList<String> ByArea = new ArrayList<>();
@@ -474,7 +477,8 @@ public class Summary {
         Matcher matcher = pattern.matcher(s);
         return matcher.find();
     }
-
+    // This function is originally the engine which has private modifier 
+    // but we may use those function in the future so we decided to make it public
     public boolean checkDivisible(int num) {
         boolean result = true;
         if (RangeTime.size() % num != 0) {
@@ -486,7 +490,7 @@ public class Summary {
 
     // 3 functions below works together to convert result and time to string to
     // display
-    public void convertResultToString() {
+    private void convertResultToString() {
         if (this.TypeOfResult == "newtotal") {
             for (int num : this.NewTotal) {
                 String s = String.valueOf(num);
@@ -500,7 +504,7 @@ public class Summary {
         }
     }
 
-    public void convertGroupOfTimeToArray() {
+    private void convertGroupOfTimeToArray() {
         String groupFirstDate = "";
         String groupLastDate = "";
         if (this.option.equals("1")) {
@@ -529,7 +533,7 @@ public class Summary {
         convertGroupOfTimeToArray();
     }
 
-    // Announcement invalid function
+    // To inform about the invalid case
     public void annInvalid() {
         System.out.println("INVALID. Please, input again!");
     }
