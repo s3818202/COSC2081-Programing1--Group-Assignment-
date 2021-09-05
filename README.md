@@ -13,7 +13,7 @@ Our team have 4 members:
                  - MAI LE ANH HUY - S3836278
 
 
-Link for presentasion (YOUTUBE URL):    
+Link for presentasion (YOUTUBE URL): https://www.youtube.com/watch?v=6SrEEQdTQpI   
 
 Contributions:
 
