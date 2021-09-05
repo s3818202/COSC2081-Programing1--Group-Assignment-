@@ -1,6 +1,6 @@
-# COSC2081-Programing1--Group-Assignment-
+# COSC2081-Programing1--Group-Assignment-Group 11
 
-This is a github of a group assignment of class COSC2081- Programing 1 from RMIT. This group project is about a program that help user searching and present data by table or chart  from a csv file that cover all cases, death, and people that vaccinated in all countries and continents in the world from 2020 to 2021. 
+This is a github of a group assignment of Group 11 from a class COSC2081- Programing 1 from RMIT. This group project is about a program that help user searching and present data by table or chart  from a csv file that cover all cases, death, and people that vaccinated in all countries and continents in the world from 2020 to 2021. 
 
 In this project, our group distributed the program to 6 main part: data(receiving user input a range of time and area), summary(processing data to a group selection as a requirement), display(cover to present data by chart and table), UserInterface(function to display in main function- restart, exit program), CheckString(valid input area to data) and main function.
 
