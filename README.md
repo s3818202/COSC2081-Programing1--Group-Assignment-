@@ -13,7 +13,9 @@ Our team have 4 members:
                  - MAI LE ANH HUY - S3836278
 
 
-Link for presentasion (YOUTUBE URL): https://www.youtube.com/watch?v=6SrEEQdTQpI   
+Link for presentation (YOUTUBE URL):  https://www.youtube.com/watch?v=6SrEEQdTQpI  
+Link for the GitHun team: https://github.com/s3818202/COSC2081-Programing1--Group-Assignment-
+                          https://github.com/s3818202/COSC2081-Programing1--Group-Assignment-.git  
 
 Contributions:
 
